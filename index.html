@@ -3,25 +3,62 @@
   <head>
     <meta charset="utf-8">
     <title>RICE(medicine)</title>
+    <style>
+      body{
+        margin: 0;
+      }
+      a {
+        color: black;
+        text-decoration: none;
+      }
+      #active {
+        color: red;
+      }
+      h1 {
+        font-size: 50px;
+        text-align: center;
+        border-bottom: 1px solid gray;
+        margin:0;
+        padding: 20px
+      }
+      ol{
+        border-right: 1px solid gray;
+        width: 100px;
+        margin: 0;
+        padding: 20px;
+        padding-left: 33px;
+      }
+      #grid{
+        display: grid;
+        grid-template-columns: 150px 1fr
+      }
+      #article{
+        padding-left: 15px;
+      }
+    </style>
   </head>
   <body>
     <h1><a href="index.html">RICE(medicine)</a></h1>
-    <ol>
-      <li><a href="1.html">Rest</a></li>
-      <li><a href="2.html">Ice</a></li>
-      <li><a href="3.html">Compression</a></li>
-      <li><a href="4.html">Elevation</a></li>
-    </ol>
-    <h2>RICE</h2>
-    <p>RICE is a mnemonic acronym for four elements of treatment for soft tissue injuries: rest, ice, compression, and elevation.
-      RICE is considered a first-aid treatment rather than a cure for soft-tissue injuries. The aim is to manage discomfort.<br>
-      The mnemonic was introduced by Gabe Mirkin in 1978.
-      He has since recanted his support for the regimen. In 2014 he wrote, "Coaches have used my 'RICE' guideline for decades, but now it appears that both ice and complete rest may delay healing, instead of helping.
-      In a recent study, athletes were told to exercise so intensely that they developed severe muscle damage that caused extensive muscle soreness.
-      Although cooling delayed swelling, it did not hasten recovery from this muscle damage."<br>
-      There is not enough evidence to determine the effectiveness of RICE therapy for acute ankle sprains.
-      Treatment decisions for ankle sprains must be made on an individual basis and relies on expert opinions and national guidelines.
-      The cold or ice component of RICE and its variations reduces blood flow to the injured area and delays healing.
-    </p>
+    <div id="grid">
+      <ol>
+        <li><a href="1.html">Rest</a></li>
+        <li><a href="2.html">Ice</a></li>
+        <li><a href="3.html">Compression</a></li>
+        <li><a href="4.html">Elevation</a></li>
+      </ol>
+      <div id="article">
+        <h2>RICE</h2>
+        <p>RICE is a mnemonic acronym for four elements of treatment for soft tissue injuries: rest, ice, compression, and elevation.
+        RICE is considered a first-aid treatment rather than a cure for soft-tissue injuries. The aim is to manage discomfort.<br>
+        The mnemonic was introduced by Gabe Mirkin in 1978.
+        He has since recanted his support for the regimen. In 2014 he wrote, "Coaches have used my 'RICE' guideline for decades, but now it appears that both ice and complete rest may delay healing, instead of helping.
+        In a recent study, athletes were told to exercise so intensely that they developed severe muscle damage that caused extensive muscle soreness.
+        Although cooling delayed swelling, it did not hasten recovery from this muscle damage."<br>
+        There is not enough evidence to determine the effectiveness of RICE therapy for acute ankle sprains.
+        Treatment decisions for ankle sprains must be made on an individual basis and relies on expert opinions and national guidelines.
+        The cold or ice component of RICE and its variations reduces blood flow to the injured area and delays healing.
+        </p>
+    </div>
+    </div>
   </body>
 </html>

@@ -3,19 +3,55 @@
   <head>
     <meta charset="utf-8">
     <title>RICE(medicine)</title>
+    <style>
+      body{
+        margin: 0;
+      }
+      a {
+        color: black;
+        text-decoration: none;
+      }
+      #active {
+        color: red;
+      }
+      h1 {
+        font-size: 50px;
+        text-align: center;
+        border-bottom: 1px solid gray;
+        margin:0;
+        padding: 20px
+      }
+      ol{
+        border-right: 1px solid gray;
+        width: 100px;
+        margin: 0;
+        padding: 20px;
+        padding-left: 33px;
+      }
+      #grid{
+        display: grid;
+        grid-template-columns: 150px 1fr
+      }
+      #article{
+        padding-left: 15px;
+      }
+    </style>
   </head>
   <body>
     <h1><a href="index.html">RICE(medicine)</a></h1>
-    <ol>
-      <li><a href="1.html">Rest</a></li>
-      <li><a href="2.html">Ice</a></li>
-      <li><a href="3.html">Compression</a></li>
-      <li><a href="4.html">Elevation</a></li>
-    </ol>
-    <h2>Rest</h2>
-    <img src="rest_image.jpg" alt="Rest" width="50%" height="50%">
-    <p>Rest is a key component of repairing the body. Without rest, continual strain is placed on the affected area that is injured, leading to increased inflammation, pain, and possible further injury. Rest is recommended during the initial 24–48 hours after an injury, but after that modified activities can be started. Additionally, some soft tissue injuries will take longer to heal without rest. There is also a risk of abnormal repair or chronic inflammation resulting from a failure to rest. In general, the period of rest should be long enough that the patient is able to use the affected limb with the majority of function restored and pain essentially gone.
-
-    </p>
+    <div id="grid">
+      <ol>
+        <li><a href="1.html">Rest</a></li>
+        <li><a href="2.html">Ice</a></li>
+        <li><a href="3.html">Compression</a></li>
+        <li><a href="4.html">Elevation</a></li>
+      </ol>
+      <div id="article">
+        <h2>Rest</h2>
+        <img src="rest_image.jpg" alt="Rest" width="50%" height="50%">
+        <p>Rest is a key component of repairing the body. Without rest, continual strain is placed on the affected area that is injured, leading to increased inflammation, pain, and possible further injury. Rest is recommended during the initial 24–48 hours after an injury, but after that modified activities can be started. Additionally, some soft tissue injuries will take longer to heal without rest. There is also a risk of abnormal repair or chronic inflammation resulting from a failure to rest. In general, the period of rest should be long enough that the patient is able to use the affected limb with the majority of function restored and pain essentially gone.
+        </p>
+      </div>
+    </div>
   </body>
 </html>
